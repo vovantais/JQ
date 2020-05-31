@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- JQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+   <!-- Font awesome ikon
+   <script src="https://kit.fontawesome.com/3d8e44fa38.js" crossorigin="anonymous"></script> -->
+   <title>Avto</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <div class="avto-info">
+         <div class="avto-info__body">
+            <div class="avto-info__title">
+               <h2>Reno Arkana</h2>
+            </div>
+            <div class="avto-info__infomation"></div>
+            <div class="avto-info__praisBYN"></div>
+            <div class="avto-info__praisUSD"></div>
+            <div class="avto-info__btn">
+               <a href="" class="avto-info__oder">Заказать</a>
+            </div>
+         </div>
+      </div>
+      <div class="cars">
+         <img src='https://3dcache.makolab.net/PRODUCTION/BY/arkana/arkana_EXT_BJC_24.jpg' alt="">
+      </div>
+      <div class="cars-color">
+         <div class="cars-color__title">
+            <h4>Цвет</h4>
+         </div>
+         <div class="cars-color__body">
+            <div class="cars-color__item burgundy"
+               data-img='https://3dcache.makolab.net/PRODUCTION/BY/arkana/arkana_EXT_LJC_24.jpg'></div>
+            <div class="cars-color__item white"
+               data-img='https://3dcache.makolab.net/PRODUCTION/BY/arkana/arkana_EXT_QJC_24.jpg'></div>
+            <div class="cars-color__item silver"
+               data-img='https://3dcache.makolab.net/PRODUCTION/BY/arkana/arkana_EXT_SJC_24.jpg'></div>
+            <div class="cars-color__item brown-green"
+               data-img='https://3dcache.makolab.net/PRODUCTION/BY/arkana/arkana_EXT_GJC_24.jpg'></div>
+         </div>
+      </div>
+      <div class="avto-settings">
+         <div class="avto-settings__mainTaitl">
+            <h2>Настроить авто под себя</h2>
+         </div>
+         <div class="avto-settings__body">
+            <div class="avto-settings__engine">
+               <h4>Двигатель</h4>
+               <p><input type="radio" name='engine' value="37300" checked> <span>1.6 л (114 л.с)</span> </p>
+               <p><input type="radio" name='engine' value="40300"> <span> 2.0 л (150 л.с)</span></p>
+            </div>
+            <div class="avto-settings__transmission">
+               <h4>Коробка передач</h4>
+               <p><input type="radio" name='transmission' checked value="0"> <span>Ручная, 5 ступений (МКП5)</span></p>
+               <p><input type="radio" name='transmission' value="2000"> <span>Автомат, 6 ступений (6 AT)</span></p>
+            </div>
+            <div class="avto-settings__version">
+               <h4>Пакет дополнительных опций</h4>
+               <p><input type="radio" name='version' checked value="0"><span>life</span></p>
+               <p><input type="radio" name='version' value="3200"><span>Drive</span></p>
+               <p><input type="radio" name='version' value="4900"><span>Style</span></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="JS/main.js"></script>
+</body>
+
+</html>

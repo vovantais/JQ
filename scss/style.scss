@@ -1,0 +1,165 @@
+@import "_null.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+   font-family: "Poppins", sans-serif;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   max-width: 100%;
+}
+.avto-info {
+   display: flex;
+   justify-content: flex-end;
+   &__body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px 100px 0px 0px;
+      border: 1px solid gray;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 30px;
+   }
+
+   &__title {
+      font-size: 30px;
+      letter-spacing: 1.8px;
+      color: rgb(76, 119, 199);
+   }
+   &__infomation {
+      font-size: 20px;
+      margin: 20px 0px 0px 0px;
+      letter-spacing: 0.8px;
+      font-style: italic;
+   }
+   &__praisBYN {
+      font-size: 24px;
+      color: rgb(28, 136, 28);
+      margin: 20px 0px 20px 0px;
+      letter-spacing: 1px;
+   }
+
+   &__praisUSD {
+      font-size: 24px;
+      color: rgb(28, 136, 28);
+      margin: 10px 0px 20px 0px;
+      letter-spacing: 1px;
+   }
+   &__oder {
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      width: 120px;
+      height: 40px;
+      color: white;
+      background: rgb(76, 119, 199);
+      font-size: 20px;
+      border-radius: 30px;
+      letter-spacing: 1.2px;
+      transition: background 0.3s linear 0.2s;
+      &:hover {
+         background: rgb(28, 52, 97);
+      }
+   }
+}
+.cars {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.avto-settings {
+   border: 1px solid #000;
+   border-radius: 30px;
+   box-shadow: 2px 2px 5px;
+   padding: 20px 50px 20px 50px;
+   margin: 0px 20px 20px 20px;
+   &__mainTaitl {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 0px 0px 20px 0px;
+   }
+
+   &__body {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__engine {
+      display: flex;
+      flex-direction: column;
+   }
+   &__engine h4 {
+      font-size: 20px;
+      margin: 10px 0px 10px 0px;
+   }
+   &__engine p {
+      margin: 10px 0px 10px 0px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+   }
+   &__transmission {
+      display: flex;
+      flex-direction: column;
+   }
+   &__transmission h4 {
+      font-size: 20px;
+      margin: 10px 0px 10px 0px;
+   }
+   &__transmission p {
+      margin: 10px 0px 10px 0px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+   }
+   &__version {
+      display: flex;
+      flex-direction: column;
+   }
+   &__version h4 {
+      font-size: 20px;
+      margin: 10px 0px 10px 0px;
+   }
+   &__version p {
+      margin: 10px 0px 10px 0px;
+      font-size: 18px;
+      letter-spacing: 0.6px;
+   }
+}
+.cars-color {
+   margin: 0 auto;
+   position: relative;
+   top: -70px;
+   &__title {
+      margin: 0px 0px 30px 0px;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__body {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__item {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 20px 20px 10px 20px;
+   }
+}
+.burgundy {
+   background: rgb(163, 29, 29);
+}
+.white {
+   background: rgb(236, 227, 227);
+}
+.silver {
+   background: rgb(190, 185, 185);
+}
+.brown-green {
+   background: rgb(44, 53, 43);
+}
